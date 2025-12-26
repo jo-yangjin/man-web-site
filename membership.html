@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>The Man membership</title>
+
+    <link rel="stylesheet" type="text/css" href="man web.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+
+            <legend>&nbsp;&nbsp;&nbsp;회원가입</legend>
+
+            <table>
+
+                <!--개인정보 입력 (실제 회원가입처럼 이름, 아이디, 비밀번호 등을 입력합니다.)-->
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;이름&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <div>
+                    &nbsp;
+                </div>
+
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;아이디&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;비밀번호&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;비밀번호 확인&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;생년월일 / 성별&nbsp;&nbsp;&nbsp;</label></td>
+                    <td>
+                        <input type="text">
+                        <inline>&nbsp;&nbsp;&nbsp;</inline>
+                        <input type="radio" name="gender"><label>남자</label>
+                        <inline>&nbsp;</inline>
+                        <input type="radio" name="gender"><label>여자</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;이메일&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"><inline>&nbsp;@&nbsp;</inline><input type="text"></td>
+                </tr>
+                
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;연락처&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label>&nbsp;&nbsp;&nbsp;&nbsp;주소&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type="text"><inline>&nbsp;&nbsp;&nbsp;</inline><input type="text"></td>
+                </tr>
+                
+            </table>
+
+            <div>
+                &nbsp;
+            </div>
+
+            <!--회원가입 완료 버튼 (실제로 구현이 되지는 않고 버튼을 클릭하면 경고창을 출력합니다.)-->
+            <inline>&nbsp;&nbsp;&nbsp;&nbsp;</inline><button class="btn text-dark" onclick="alert('죄송합니다. 저희 사이트는 회원가입을 받지 않습니다.')">&nbsp;&nbsp;완료&nbsp;&nbsp;</button>
+        
+        </fieldset>
+
+        <div>
+            &nbsp;
+        </div>
+
+        <hr>
+
+        <inline>&nbsp;&nbsp;&nbsp;&nbsp;</inline>
+
+        <!--회원가입으로 이동 (a태그를 통해 링크를 클릭하면 회원가입 웹 페이지로 이동할 수 있습니다.)-->
+        <a href="login.html" class="menu-text">로그인</a>
+
+        <inline>&nbsp;&nbsp;&nbsp;&nbsp;</inline>
+
+        <!--사이트로 이동 (a태그를 통해 링크를 클릭하면 메인 사이트로 돌아올 수 있습니다.)-->
+        <a href="man web.html" class="menu-text">사이트 돌아가기</a>
+
+    </form>
+
+</body>
+
+</html>
